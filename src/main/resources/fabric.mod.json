@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "chickens",
+  "version": "${version}",
+
+  "name": "Chickens",
+  "description": "Mod created to test how entities are added.",
+  "authors": [
+    "MCLegoMan"
+  ],
+  "contact": {
+    "homepage": "https://mclegoman.com/"
+  },
+
+  "license": "MCLM-OSL (2022)",
+  "icon": "assets/chickens/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mclegoman.chickens.main"
+    ]
+  },
+  "mixins": [
+    "chickens.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+  }
+}
